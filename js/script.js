@@ -13,7 +13,7 @@ lampButton.addEventListener('click', function(){
     
     console.log('cliccato');
     lampIMG.src = './img/yellow_lamp.png'
-    
+    lampButton.innerText = 'SPEGNI'
     
     
 })
